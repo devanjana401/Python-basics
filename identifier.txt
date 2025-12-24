@@ -1,0 +1,25 @@
+# 1. Identifiers are names created by the programmer.
+# 2. Used for variables, functions, and classes.
+# 3. Identifiers = names you create.
+
+# Examples of identifiers
+name = "Anupama"        # identifier
+student_age = 25        # identifier
+is_student = True       # identifier
+
+# Rules for identifiers:
+# - Must start with a letter or _
+# - Can contain numbers (not at start)
+# - No spaces or special characters
+# - Case-sensitive
+# - Should not be a keyword
+
+# Valid identifiers
+_age = 20
+student1 = True
+myName = "Anu"
+
+# Invalid identifiers (commented)
+# 2name = "A"     ❌ starts with number
+# my name = "A"   ❌ space not allowed
+# class = 10      ❌ keyword

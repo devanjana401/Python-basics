@@ -1,0 +1,14 @@
+# 1. Keywords are reserved words used by Python.
+# 2. They have predefined meanings.
+# 3. Keywords CANNOT be used as variable names.
+
+# Examples of keywords:
+# and, or, not, if, else, elif
+# for, while, break, continue
+# def, return, class
+# try, except, finally
+# True, False, None
+# import, from, as, pass, raise, with, yield
+
+# ❌ Wrong usage (commented to avoid error)
+# if = 10     # 'if' is a keyword, cannot be used as variable name

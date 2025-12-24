@@ -1,0 +1,11 @@
+
+Feature        List            Tuple             Dictionary               Set
+---------------------------------------------------------------------------
+Syntax         [ ]             ( )               {key: value}             { } or set()
+Ordered?       Yes             Yes               Yes (Python 3.7+)        No
+Mutable?       Yes             No (immutable)    Keys unique, values mutable   Yes
+Duplicates?    Allowed         Allowed           Keys not allowed,
+                                                  Values allowed           Not allowed
+Access         By index        By index          By key                    Not by index
+Use case       Store multiple  Fixed collection Map (key → value)         Unique collection,
+              values                                              fast operations
