@@ -37,13 +37,16 @@ nums.reverse()
 print("reverse:", nums)
 
 # copying
+# shallow copy - copy the outer and refernce copy of inner
+import copy
 fruits = ["apple",["banana", "cherry"]]
 # copy() → shallow copy
 new_list = fruits.copy()
-# new_list = copy.deepcopy(fruits)
+new_list1 = copy.deepcopy(fruits)
 fruits[1][0]="mango"
 print("fruits:", fruits)
 print("copy:", new_list)
+print("deep copy:", new_list1)
 
 # other useful
 nums = [1,2,3]
