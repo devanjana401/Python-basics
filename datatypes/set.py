@@ -9,7 +9,7 @@ set1.add(6)
 print("After add:",set1)
 set1.remove(3)     # removes element,error if not present
 print("After remove:",set1)
-set1.discard(10)   # no error if eleemnt not present
+set1.discard(10)   # no error if element not present
 
 # set operations
 a = {1,2,3,4}
