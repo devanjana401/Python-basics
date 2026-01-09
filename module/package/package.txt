@@ -1,0 +1,20 @@
+package - collection of modules
+library - large collection of packages(like numpy,pandas)
+
+
+mypackage/
+---- __init.py__   -- tells python that this folder is a package
+---- calculator.py
+---- greetings.py
+
+different Ways to Import
+
+1- import full module
+    -- ex:- import my_package.calculator
+    -- use:- Use my_package.calculator.add(2,3)
+2- import specific function
+    -- ex:- from my_package.calculator import add
+    -- use:- Use add(2,3)
+3- import all
+    -- ex:- from my_package import *
+    -- use:- Imports everything inside __init__.py
