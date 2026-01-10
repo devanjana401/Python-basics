@@ -1,4 +1,4 @@
-# higher order functino - a function takes another function as arguments
+# higher order function - a function takes another function as arguments
 
 # example 1
 def greet(name):
