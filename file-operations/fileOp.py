@@ -24,10 +24,25 @@
 #         print(line.strip())   
 
 # -----exists,rename,remove-----
-import os
-# chek if file exists
-print(os.path.exists("example.txt"))
-# rename
-os.rename("example.txt","fileOpTest.txt")
-# delete
-os.remove("newfile.txt")
+# import os
+# # chek if file exists
+# print(os.path.exists("example.txt"))
+# # rename
+# os.rename("example.txt","fileOpTest.txt")
+# # delete
+# os.remove("newfile.txt")
+
+# simple file program
+def write_file():
+    with open("notes2.txt", "w") as f:
+        f.write("Python is fun!\n")
+        f.write("We are learning file handling.")
+def read_file():
+    with open("notes2.txt", "r") as f:
+        print(f.read())
+def append_file():
+    with open("notes2.txt", "a") as f:
+        f.write("\n Lets add one more line!")
+# write_file()
+append_file()
+read_file()
