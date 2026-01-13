@@ -1,0 +1,4 @@
+class - blueprint of object
+object - actual thing build using blueprint (eg:- car)
+it have -> data(attributes-color,model...)
+        -> methods(functions-start(),stop())

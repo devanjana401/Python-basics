@@ -64,3 +64,4 @@ else:
     print("The result is:", result)
 finally:
     print("Thank you for using the calculator!")
+    
