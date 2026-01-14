@@ -1,0 +1,3 @@
+# Encapsulation - Binding data and functions that operate on that data into a single unit - a class
+# Hiding internal details of object and protect data from direct access or modification
+# why this? data protection,controlled access,code modularity,data hiding

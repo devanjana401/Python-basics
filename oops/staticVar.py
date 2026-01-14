@@ -11,6 +11,9 @@ class BankAccount:
         self.balance=balance
         
     def deposit(self,amount):
+
+
+        
         self.balance+=amount
         print(f"new balance of {self.account_holder} is : {self.balance}")
         
@@ -20,7 +23,6 @@ class BankAccount:
             print(f"new balance of {self.account_holder} is : {self.balance}")
         else:
             print("Insufficient Balance!")
-            
         
     def display_balance(self):
         print(f"balance of {self.account_holder} is : {self.balance}")        
